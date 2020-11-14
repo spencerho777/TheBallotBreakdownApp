@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E14420C255FC97E00CDBECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14420B255FC97E00CDBECD /* AppDelegate.swift */; };
+		3E14420E255FC97E00CDBECD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14420D255FC97E00CDBECD /* SceneDelegate.swift */; };
+		3E144210255FC97E00CDBECD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14420F255FC97E00CDBECD /* ContentView.swift */; };
+		3E144212255FC98000CDBECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E144211255FC98000CDBECD /* Assets.xcassets */; };
+		3E144215255FC98000CDBECD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E144214255FC98000CDBECD /* Preview Assets.xcassets */; };
+		3E144218255FC98000CDBECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E144216255FC98000CDBECD /* LaunchScreen.storyboard */; };
+		3E144223255FC98100CDBECD /* PoliticalAccountabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E144222255FC98100CDBECD /* PoliticalAccountabilityTests.swift */; };
+		3E14422E255FC98100CDBECD /* PoliticalAccountabilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14422D255FC98100CDBECD /* PoliticalAccountabilityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E14421F255FC98000CDBECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E144200255FC97D00CDBECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E144207255FC97E00CDBECD;
+			remoteInfo = PoliticalAccountability;
+		};
+		3E14422A255FC98100CDBECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E144200255FC97D00CDBECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E144207255FC97E00CDBECD;
+			remoteInfo = PoliticalAccountability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E144208255FC97E00CDBECD /* PoliticalAccountability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliticalAccountability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E14420B255FC97E00CDBECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E14420D255FC97E00CDBECD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E14420F255FC97E00CDBECD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E144211255FC98000CDBECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E144214255FC98000CDBECD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E144217255FC98000CDBECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E144219255FC98000CDBECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E14421E255FC98000CDBECD /* PoliticalAccountabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticalAccountabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E144222255FC98100CDBECD /* PoliticalAccountabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalAccountabilityTests.swift; sourceTree = "<group>"; };
+		3E144224255FC98100CDBECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E144229255FC98100CDBECD /* PoliticalAccountabilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticalAccountabilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E14422D255FC98100CDBECD /* PoliticalAccountabilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalAccountabilityUITests.swift; sourceTree = "<group>"; };
+		3E14422F255FC98100CDBECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E144205255FC97E00CDBECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14421B255FC98000CDBECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E144226255FC98100CDBECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1441FF255FC97D00CDBECD = {
+			isa = PBXGroup;
+			children = (
+				3E14420A255FC97E00CDBECD /* PoliticalAccountability */,
+				3E144221255FC98100CDBECD /* PoliticalAccountabilityTests */,
+				3E14422C255FC98100CDBECD /* PoliticalAccountabilityUITests */,
+				3E144209255FC97E00CDBECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E144209255FC97E00CDBECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E144208255FC97E00CDBECD /* PoliticalAccountability.app */,
+				3E14421E255FC98000CDBECD /* PoliticalAccountabilityTests.xctest */,
+				3E144229255FC98100CDBECD /* PoliticalAccountabilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E14420A255FC97E00CDBECD /* PoliticalAccountability */ = {
+			isa = PBXGroup;
+			children = (
+				3E14420B255FC97E00CDBECD /* AppDelegate.swift */,
+				3E14420D255FC97E00CDBECD /* SceneDelegate.swift */,
+				3E14420F255FC97E00CDBECD /* ContentView.swift */,
+				3E144211255FC98000CDBECD /* Assets.xcassets */,
+				3E144216255FC98000CDBECD /* LaunchScreen.storyboard */,
+				3E144219255FC98000CDBECD /* Info.plist */,
+				3E144213255FC98000CDBECD /* Preview Content */,
+			);
+			path = PoliticalAccountability;
+			sourceTree = "<group>";
+		};
+		3E144213255FC98000CDBECD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E144214255FC98000CDBECD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E144221255FC98100CDBECD /* PoliticalAccountabilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E144222255FC98100CDBECD /* PoliticalAccountabilityTests.swift */,
+				3E144224255FC98100CDBECD /* Info.plist */,
+			);
+			path = PoliticalAccountabilityTests;
+			sourceTree = "<group>";
+		};
+		3E14422C255FC98100CDBECD /* PoliticalAccountabilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E14422D255FC98100CDBECD /* PoliticalAccountabilityUITests.swift */,
+				3E14422F255FC98100CDBECD /* Info.plist */,
+			);
+			path = PoliticalAccountabilityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E144207255FC97E00CDBECD /* PoliticalAccountability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E144232255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountability" */;
+			buildPhases = (
+				3E144204255FC97E00CDBECD /* Sources */,
+				3E144205255FC97E00CDBECD /* Frameworks */,
+				3E144206255FC97E00CDBECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoliticalAccountability;
+			productName = PoliticalAccountability;
+			productReference = 3E144208255FC97E00CDBECD /* PoliticalAccountability.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E14421D255FC98000CDBECD /* PoliticalAccountabilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E144235255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountabilityTests" */;
+			buildPhases = (
+				3E14421A255FC98000CDBECD /* Sources */,
+				3E14421B255FC98000CDBECD /* Frameworks */,
+				3E14421C255FC98000CDBECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E144220255FC98000CDBECD /* PBXTargetDependency */,
+			);
+			name = PoliticalAccountabilityTests;
+			productName = PoliticalAccountabilityTests;
+			productReference = 3E14421E255FC98000CDBECD /* PoliticalAccountabilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E144228255FC98100CDBECD /* PoliticalAccountabilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E144238255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountabilityUITests" */;
+			buildPhases = (
+				3E144225255FC98100CDBECD /* Sources */,
+				3E144226255FC98100CDBECD /* Frameworks */,
+				3E144227255FC98100CDBECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E14422B255FC98100CDBECD /* PBXTargetDependency */,
+			);
+			name = PoliticalAccountabilityUITests;
+			productName = PoliticalAccountabilityUITests;
+			productReference = 3E144229255FC98100CDBECD /* PoliticalAccountabilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E144200255FC97D00CDBECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Spencer Ho's Hose";
+				TargetAttributes = {
+					3E144207255FC97E00CDBECD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					3E14421D255FC98000CDBECD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3E144207255FC97E00CDBECD;
+					};
+					3E144228255FC98100CDBECD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3E144207255FC97E00CDBECD;
+					};
+				};
+			};
+			buildConfigurationList = 3E144203255FC97D00CDBECD /* Build configuration list for PBXProject "PoliticalAccountability" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E1441FF255FC97D00CDBECD;
+			productRefGroup = 3E144209255FC97E00CDBECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E144207255FC97E00CDBECD /* PoliticalAccountability */,
+				3E14421D255FC98000CDBECD /* PoliticalAccountabilityTests */,
+				3E144228255FC98100CDBECD /* PoliticalAccountabilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E144206255FC97E00CDBECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E144218255FC98000CDBECD /* LaunchScreen.storyboard in Resources */,
+				3E144215255FC98000CDBECD /* Preview Assets.xcassets in Resources */,
+				3E144212255FC98000CDBECD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14421C255FC98000CDBECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E144227255FC98100CDBECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E144204255FC97E00CDBECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E14420C255FC97E00CDBECD /* AppDelegate.swift in Sources */,
+				3E14420E255FC97E00CDBECD /* SceneDelegate.swift in Sources */,
+				3E144210255FC97E00CDBECD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14421A255FC98000CDBECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E144223255FC98100CDBECD /* PoliticalAccountabilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E144225255FC98100CDBECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E14422E255FC98100CDBECD /* PoliticalAccountabilityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E144220255FC98000CDBECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E144207255FC97E00CDBECD /* PoliticalAccountability */;
+			targetProxy = 3E14421F255FC98000CDBECD /* PBXContainerItemProxy */;
+		};
+		3E14422B255FC98100CDBECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E144207255FC97E00CDBECD /* PoliticalAccountability */;
+			targetProxy = 3E14422A255FC98100CDBECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E144216255FC98000CDBECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E144217255FC98000CDBECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E144230255FC98100CDBECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E144231255FC98100CDBECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E144233255FC98100CDBECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PoliticalAccountability/Preview Content\"";
+				DEVELOPMENT_TEAM = WXCEU9TX2N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PoliticalAccountability/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountability;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E144234255FC98100CDBECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PoliticalAccountability/Preview Content\"";
+				DEVELOPMENT_TEAM = WXCEU9TX2N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PoliticalAccountability/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountability;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E144236255FC98100CDBECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXCEU9TX2N;
+				INFOPLIST_FILE = PoliticalAccountabilityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountabilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliticalAccountability.app/PoliticalAccountability";
+			};
+			name = Debug;
+		};
+		3E144237255FC98100CDBECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXCEU9TX2N;
+				INFOPLIST_FILE = PoliticalAccountabilityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountabilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliticalAccountability.app/PoliticalAccountability";
+			};
+			name = Release;
+		};
+		3E144239255FC98100CDBECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXCEU9TX2N;
+				INFOPLIST_FILE = PoliticalAccountabilityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountabilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliticalAccountability;
+			};
+			name = Debug;
+		};
+		3E14423A255FC98100CDBECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXCEU9TX2N;
+				INFOPLIST_FILE = PoliticalAccountabilityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountabilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliticalAccountability;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E144203255FC97D00CDBECD /* Build configuration list for PBXProject "PoliticalAccountability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E144230255FC98100CDBECD /* Debug */,
+				3E144231255FC98100CDBECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E144232255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E144233255FC98100CDBECD /* Debug */,
+				3E144234255FC98100CDBECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E144235255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountabilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E144236255FC98100CDBECD /* Debug */,
+				3E144237255FC98100CDBECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E144238255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountabilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E144239255FC98100CDBECD /* Debug */,
+				3E14423A255FC98100CDBECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E144200255FC97D00CDBECD /* Project object */;
+}
