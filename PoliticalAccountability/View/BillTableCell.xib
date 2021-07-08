@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="BillTableCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BillTableCell" rowHeight="264" id="VAC-fn-UHw" customClass="BillTableCell" customModule="PoliticalAccountability" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VAC-fn-UHw" id="SqC-R5-kdI">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="260"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="bb2-vo-Lcu" userLabel="Title">
+                        <rect key="frame" x="19" y="19" width="375" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="NsA-ne-Af5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orP-Jz-yqs">
+                        <rect key="frame" x="20" y="56" width="373" height="157"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is no summary for this bill" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="6gy-3N-bMi" userLabel="Short Summary">
+                                <rect key="frame" x="0.0" y="10" width="373" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="Lix-Jx-S2e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6gy-3N-bMi" firstAttribute="top" secondItem="orP-Jz-yqs" secondAttribute="top" constant="10" id="4Ea-Vl-a2f"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="SpO-Z4-mTx"/>
+                            <constraint firstItem="6gy-3N-bMi" firstAttribute="leading" secondItem="orP-Jz-yqs" secondAttribute="leading" id="ZUw-JP-27J"/>
+                            <constraint firstAttribute="bottom" secondItem="6gy-3N-bMi" secondAttribute="bottom" constant="8" id="cJ9-Xq-0Q7"/>
+                            <constraint firstAttribute="trailing" secondItem="6gy-3N-bMi" secondAttribute="trailing" id="zon-ks-vGs"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bbv-9t-1Om">
+                        <rect key="frame" x="19" y="221" width="375" height="20.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kep-Sf-3Yd" userLabel="Origin">
+                                <rect key="frame" x="0.0" y="0.0" width="172.5" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aaz-N5-898" userLabel="Date">
+                                <rect key="frame" x="202.5" y="0.0" width="172.5" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="bDE-ic-nDn"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="bbv-9t-1Om" secondAttribute="trailing" constant="20" id="1mq-X9-8dA"/>
+                    <constraint firstItem="bb2-vo-Lcu" firstAttribute="leading" secondItem="SqC-R5-kdI" secondAttribute="leading" constant="19" id="Bel-rc-5Hm"/>
+                    <constraint firstItem="bbv-9t-1Om" firstAttribute="leading" secondItem="SqC-R5-kdI" secondAttribute="leading" constant="19" id="N0o-Ry-gYR"/>
+                    <constraint firstAttribute="bottom" secondItem="bbv-9t-1Om" secondAttribute="bottom" constant="18.5" id="ObI-uR-Jen"/>
+                    <constraint firstItem="orP-Jz-yqs" firstAttribute="leading" secondItem="SqC-R5-kdI" secondAttribute="leading" constant="20" id="bZb-xI-Z3b"/>
+                    <constraint firstAttribute="trailing" secondItem="orP-Jz-yqs" secondAttribute="trailing" constant="21" id="f5l-Gg-21Z"/>
+                    <constraint firstAttribute="trailing" secondItem="bb2-vo-Lcu" secondAttribute="trailing" constant="20" id="kSC-5W-aXU"/>
+                    <constraint firstItem="bbv-9t-1Om" firstAttribute="top" secondItem="orP-Jz-yqs" secondAttribute="bottom" constant="8" id="llf-By-WHN"/>
+                    <constraint firstItem="orP-Jz-yqs" firstAttribute="top" secondItem="bb2-vo-Lcu" secondAttribute="bottom" constant="8" id="upG-6m-yix"/>
+                    <constraint firstItem="bb2-vo-Lcu" firstAttribute="top" secondItem="SqC-R5-kdI" secondAttribute="top" constant="19" id="yIc-Rv-3Ld"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="billDateLabel" destination="Aaz-N5-898" id="1Ax-EO-HXN"/>
+                <outlet property="billOriginLabel" destination="Kep-Sf-3Yd" id="s0V-1u-pK5"/>
+                <outlet property="billTitleLabel" destination="bb2-vo-Lcu" id="5Va-q4-eqV"/>
+                <outlet property="shortSummaryLabel" destination="6gy-3N-bMi" id="dkk-LN-PKA"/>
+            </connections>
+            <point key="canvasLocation" x="68.115942028985515" y="169.41964285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -3,18 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E01F6B8267D44C1005F036F /* BillActionVotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E01F6B7267D44C1005F036F /* BillActionVotesViewController.swift */; };
+		3E01F6C0267D4858005F036F /* VotesmartCandidateVote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E01F6BF267D4858005F036F /* VotesmartCandidateVote.swift */; };
+		3E01F6C5267D4AD1005F036F /* SmartVoteTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E01F6C4267D4AD1005F036F /* SmartVoteTableCell.swift */; };
+		3E0C6E882676A5C100D38C1E /* SmartActionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6E872676A5C100D38C1E /* SmartActionTableCell.swift */; };
 		3E14420C255FC97E00CDBECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14420B255FC97E00CDBECD /* AppDelegate.swift */; };
-		3E14420E255FC97E00CDBECD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14420D255FC97E00CDBECD /* SceneDelegate.swift */; };
 		3E144210255FC97E00CDBECD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14420F255FC97E00CDBECD /* ContentView.swift */; };
 		3E144212255FC98000CDBECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E144211255FC98000CDBECD /* Assets.xcassets */; };
 		3E144215255FC98000CDBECD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E144214255FC98000CDBECD /* Preview Assets.xcassets */; };
-		3E144218255FC98000CDBECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E144216255FC98000CDBECD /* LaunchScreen.storyboard */; };
+		3E144218255FC98000CDBECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E144216255FC98000CDBECD /* Main.storyboard */; };
 		3E144223255FC98100CDBECD /* PoliticalAccountabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E144222255FC98100CDBECD /* PoliticalAccountabilityTests.swift */; };
 		3E14422E255FC98100CDBECD /* PoliticalAccountabilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14422D255FC98100CDBECD /* PoliticalAccountabilityUITests.swift */; };
+		3E14423F255FCB4800CDBECD /* BrowseRepresentativesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14423E255FCB4800CDBECD /* BrowseRepresentativesViewController.swift */; };
+		3E144241255FCBE900CDBECD /* StartingTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E144240255FCBE900CDBECD /* StartingTabBarController.swift */; };
+		3E144250255FD3FE00CDBECD /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14424E255FD3FE00CDBECD /* Representative.swift */; };
+		3E144251255FD3FE00CDBECD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14424F255FD3FE00CDBECD /* User.swift */; };
+		3E144253255FD72C00CDBECD /* FirstNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E144252255FD72C00CDBECD /* FirstNavigationController.swift */; };
+		3E144255255FD84300CDBECD /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E144254255FD84300CDBECD /* Vote.swift */; };
+		3E144257255FD96700CDBECD /* FirestoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E144256255FD96700CDBECD /* FirestoreHelper.swift */; };
+		3E14425B255FDBD900CDBECD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E14425A255FDBD900CDBECD /* GoogleService-Info.plist */; };
+		3E14425F256081E000CDBECD /* AuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14425E256081E000CDBECD /* AuthorizationController.swift */; };
+		3E14426125609CB500CDBECD /* BrowseBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14426025609CB500CDBECD /* BrowseBillsViewController.swift */; };
+		3E1442642560D8CC00CDBECD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1442632560D8CC00CDBECD /* Constants.swift */; };
+		3E1442692561D67A00CDBECD /* CongressIOHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1442682561D67A00CDBECD /* CongressIOHelper.swift */; };
+		3E14426B2562391A00CDBECD /* RepresentativeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14426A2562391A00CDBECD /* RepresentativeTableCell.swift */; };
+		3E37445D259BF219006005B2 /* WikipediaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37445C259BF219006005B2 /* WikipediaHelper.swift */; };
+		3E37445F25A81C7A006005B2 /* VoteSmartHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37445E25A81C7A006005B2 /* VoteSmartHelper.swift */; };
+		3E37446125A81F2C006005B2 /* DetailedBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37446025A81F2C006005B2 /* DetailedBill.swift */; };
+		3E37446325A8201A006005B2 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37446225A8201A006005B2 /* Action.swift */; };
+		3E37446525B3B396006005B2 /* StringDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37446425B3B396006005B2 /* StringDistance.swift */; };
+		3E44E199258309AE004518F7 /* BillTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E44E198258309AE004518F7 /* BillTableCell.swift */; };
+		3E49027A2595423D0060F315 /* RepresentativeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4902792595423D0060F315 /* RepresentativeSearch.swift */; };
+		3E49027C259855F00060F315 /* GovtrackerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49027B259855F00060F315 /* GovtrackerHelper.swift */; };
+		3E49027E259AB3640060F315 /* BillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49027D259AB3640060F315 /* BillDetailViewController.swift */; };
+		3E6F3F4D25B67F6800C917CD /* PCTRepresentativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F3F4C25B67F6800C917CD /* PCTRepresentativeViewController.swift */; };
+		3E6F3F4F25B67FFD00C917CD /* PCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F3F4E25B67FFD00C917CD /* PCT.swift */; };
+		3E8521D82675A4A2000978B3 /* VotesmartBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8521D72675A4A2000978B3 /* VotesmartBill.swift */; };
+		3E8521E02675DDCD000978B3 /* VotesmartAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8521DF2675DDCD000978B3 /* VotesmartAction.swift */; };
+		3E8521E52675E64D000978B3 /* BillHighlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8521E42675E64D000978B3 /* BillHighlightsViewController.swift */; };
+		3E893F2F258385D9009907FD /* VoteTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E893F2E258385D9009907FD /* VoteTableCell.swift */; };
+		3E8ECD1826812F5600725555 /* ActivityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8ECD1726812F5600725555 /* ActivityLoader.swift */; };
+		3E8ECD202681B94F00725555 /* RepresentativeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8ECD1F2681B94F00725555 /* RepresentativeDetailViewController.swift */; };
+		3E8ECD2B26843EC800725555 /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ECD2A26843EC800725555 /* Launchscreen.storyboard */; };
+		3E8EE2FE25CC5E0000CEE2C8 /* VotesmartVote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8EE2FD25CC5E0000CEE2C8 /* VotesmartVote.swift */; };
+		3EAF0AC62568B5A100E8066F /* RepresentativeImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF0AC52568B5A100E8066F /* RepresentativeImageLoader.swift */; };
+		3EAF0AC8256F701E00E8066F /* ProPublicaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF0AC7256F701E00E8066F /* ProPublicaHelper.swift */; };
+		3EDE7F70257C3D5B00067192 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE7F6F257C3D5B00067192 /* Bill.swift */; };
+		3EDE7F72257DBDB100067192 /* LifeRepresentativeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE7F71257DBDB100067192 /* LifeRepresentativeDetailViewController.swift */; };
+		3EDE7F74257DBDE700067192 /* SponsorRepresentativeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE7F73257DBDE700067192 /* SponsorRepresentativeDetailViewController.swift */; };
+		3EDE7F76257DBE0E00067192 /* VoteReprsentativeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE7F75257DBE0E00067192 /* VoteReprsentativeDetailViewController.swift */; };
+		3EDE7F7A257DBF4800067192 /* MenuRepresentativeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE7F79257DBF4800067192 /* MenuRepresentativeDetailViewController.swift */; };
+		3EE3A5C925C123020084B294 /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE3A5C825C123020084B294 /* CollapsibleTableViewController.swift */; };
+		3EE3A5CB25C123350084B294 /* CollapsibleTableViewHeader.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE3A5CA25C123350084B294 /* CollapsibleTableViewHeader.swift .swift */; };
+		3EE3A5CD25C16AB30084B294 /* PCTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3A5CC25C16AB30084B294 /* PCTCell.xib */; };
+		3EE3A5CF25C16B880084B294 /* PCTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE3A5CE25C16B880084B294 /* PCTCell.swift */; };
+		3EEF04082590366100BF4CA6 /* BillTableDelegateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF04072590366100BF4CA6 /* BillTableDelegateSource.swift */; };
+		3EEF040D25908FFE00BF4CA6 /* BillTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EEF040C25908FFE00BF4CA6 /* BillTableCell.xib */; };
+		7617A920B18F7DBC6DCB452C /* Pods_PoliticalAccountability_PoliticalAccountabilityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE240DC0A6D0B95CF67A5791 /* Pods_PoliticalAccountability_PoliticalAccountabilityUITests.framework */; };
+		9E968A345A7C96D67C18D4E7 /* Pods_PoliticalAccountabilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47E77F51A766A8F061CA525 /* Pods_PoliticalAccountabilityTests.framework */; };
+		EB76AD53E9AD897850EC6567 /* Pods_PoliticalAccountability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636D5F8F89011B34ACE6B0F /* Pods_PoliticalAccountability.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +86,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BE942FBF9B87EEA385641D /* Pods-PoliticalAccountability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalAccountability.release.xcconfig"; path = "Target Support Files/Pods-PoliticalAccountability/Pods-PoliticalAccountability.release.xcconfig"; sourceTree = "<group>"; };
+		035678DB8037020BDFE46C0E /* Pods-PoliticalAccountabilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalAccountabilityTests.release.xcconfig"; path = "Target Support Files/Pods-PoliticalAccountabilityTests/Pods-PoliticalAccountabilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B1CAF217DCCB6A4D191C926 /* Pods-PoliticalAccountability-PoliticalAccountabilityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalAccountability-PoliticalAccountabilityUITests.release.xcconfig"; path = "Target Support Files/Pods-PoliticalAccountability-PoliticalAccountabilityUITests/Pods-PoliticalAccountability-PoliticalAccountabilityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E01F6B7267D44C1005F036F /* BillActionVotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillActionVotesViewController.swift; sourceTree = "<group>"; };
+		3E01F6BF267D4858005F036F /* VotesmartCandidateVote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesmartCandidateVote.swift; sourceTree = "<group>"; };
+		3E01F6C4267D4AD1005F036F /* SmartVoteTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartVoteTableCell.swift; sourceTree = "<group>"; };
+		3E0C6E872676A5C100D38C1E /* SmartActionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartActionTableCell.swift; sourceTree = "<group>"; };
 		3E144208255FC97E00CDBECD /* PoliticalAccountability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliticalAccountability.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E14420B255FC97E00CDBECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E14420D255FC97E00CDBECD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3E14420F255FC97E00CDBECD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E144211255FC98000CDBECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E144214255FC98000CDBECD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3E144217255FC98000CDBECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E144217255FC98000CDBECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E144219255FC98000CDBECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E14421E255FC98000CDBECD /* PoliticalAccountabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticalAccountabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E144222255FC98100CDBECD /* PoliticalAccountabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalAccountabilityTests.swift; sourceTree = "<group>"; };
@@ -49,6 +106,58 @@
 		3E144229255FC98100CDBECD /* PoliticalAccountabilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticalAccountabilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E14422D255FC98100CDBECD /* PoliticalAccountabilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalAccountabilityUITests.swift; sourceTree = "<group>"; };
 		3E14422F255FC98100CDBECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E14423E255FCB4800CDBECD /* BrowseRepresentativesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseRepresentativesViewController.swift; sourceTree = "<group>"; };
+		3E144240255FCBE900CDBECD /* StartingTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingTabBarController.swift; sourceTree = "<group>"; };
+		3E14424E255FD3FE00CDBECD /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		3E14424F255FD3FE00CDBECD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3E144252255FD72C00CDBECD /* FirstNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNavigationController.swift; sourceTree = "<group>"; };
+		3E144254255FD84300CDBECD /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		3E144256255FD96700CDBECD /* FirestoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreHelper.swift; sourceTree = "<group>"; };
+		3E14425A255FDBD900CDBECD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3E14425E256081E000CDBECD /* AuthorizationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationController.swift; sourceTree = "<group>"; };
+		3E14426025609CB500CDBECD /* BrowseBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseBillsViewController.swift; sourceTree = "<group>"; };
+		3E1442632560D8CC00CDBECD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3E1442682561D67A00CDBECD /* CongressIOHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongressIOHelper.swift; sourceTree = "<group>"; };
+		3E14426A2562391A00CDBECD /* RepresentativeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeTableCell.swift; sourceTree = "<group>"; };
+		3E37445C259BF219006005B2 /* WikipediaHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaHelper.swift; sourceTree = "<group>"; };
+		3E37445E25A81C7A006005B2 /* VoteSmartHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteSmartHelper.swift; sourceTree = "<group>"; };
+		3E37446025A81F2C006005B2 /* DetailedBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedBill.swift; sourceTree = "<group>"; };
+		3E37446225A8201A006005B2 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		3E37446425B3B396006005B2 /* StringDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDistance.swift; sourceTree = "<group>"; };
+		3E44E198258309AE004518F7 /* BillTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableCell.swift; sourceTree = "<group>"; };
+		3E4902792595423D0060F315 /* RepresentativeSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeSearch.swift; sourceTree = "<group>"; };
+		3E49027B259855F00060F315 /* GovtrackerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovtrackerHelper.swift; sourceTree = "<group>"; };
+		3E49027D259AB3640060F315 /* BillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailViewController.swift; sourceTree = "<group>"; };
+		3E6F3F4C25B67F6800C917CD /* PCTRepresentativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCTRepresentativeViewController.swift; sourceTree = "<group>"; };
+		3E6F3F4E25B67FFD00C917CD /* PCT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCT.swift; sourceTree = "<group>"; };
+		3E8521D72675A4A2000978B3 /* VotesmartBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesmartBill.swift; sourceTree = "<group>"; };
+		3E8521DF2675DDCD000978B3 /* VotesmartAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesmartAction.swift; sourceTree = "<group>"; };
+		3E8521E42675E64D000978B3 /* BillHighlightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillHighlightsViewController.swift; sourceTree = "<group>"; };
+		3E893F2E258385D9009907FD /* VoteTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteTableCell.swift; sourceTree = "<group>"; };
+		3E8ECD1726812F5600725555 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
+		3E8ECD1F2681B94F00725555 /* RepresentativeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeDetailViewController.swift; sourceTree = "<group>"; };
+		3E8ECD2A26843EC800725555 /* Launchscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launchscreen.storyboard; sourceTree = "<group>"; };
+		3E8ECD352684469C00725555 /* PoliticalAccountability.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PoliticalAccountability.entitlements; sourceTree = "<group>"; };
+		3E8EE2FD25CC5E0000CEE2C8 /* VotesmartVote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesmartVote.swift; sourceTree = "<group>"; };
+		3EAF0AC52568B5A100E8066F /* RepresentativeImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeImageLoader.swift; sourceTree = "<group>"; };
+		3EAF0AC7256F701E00E8066F /* ProPublicaHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPublicaHelper.swift; sourceTree = "<group>"; };
+		3EDE7F6F257C3D5B00067192 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		3EDE7F71257DBDB100067192 /* LifeRepresentativeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeRepresentativeDetailViewController.swift; sourceTree = "<group>"; };
+		3EDE7F73257DBDE700067192 /* SponsorRepresentativeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorRepresentativeDetailViewController.swift; sourceTree = "<group>"; };
+		3EDE7F75257DBE0E00067192 /* VoteReprsentativeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteReprsentativeDetailViewController.swift; sourceTree = "<group>"; };
+		3EDE7F79257DBF4800067192 /* MenuRepresentativeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepresentativeDetailViewController.swift; sourceTree = "<group>"; };
+		3EE3A5C825C123020084B294 /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
+		3EE3A5CA25C123350084B294 /* CollapsibleTableViewHeader.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollapsibleTableViewHeader.swift .swift"; sourceTree = "<group>"; };
+		3EE3A5CC25C16AB30084B294 /* PCTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PCTCell.xib; sourceTree = "<group>"; };
+		3EE3A5CE25C16B880084B294 /* PCTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCTCell.swift; sourceTree = "<group>"; };
+		3EEF04072590366100BF4CA6 /* BillTableDelegateSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableDelegateSource.swift; sourceTree = "<group>"; };
+		3EEF040C25908FFE00BF4CA6 /* BillTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillTableCell.xib; sourceTree = "<group>"; };
+		453149F93E53DAB0225EC73F /* Pods-PoliticalAccountability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalAccountability.debug.xcconfig"; path = "Target Support Files/Pods-PoliticalAccountability/Pods-PoliticalAccountability.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB1A7F136651E86D71EABF6 /* Pods-PoliticalAccountabilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalAccountabilityTests.debug.xcconfig"; path = "Target Support Files/Pods-PoliticalAccountabilityTests/Pods-PoliticalAccountabilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D4170D85E8864849B180AF5 /* Pods-PoliticalAccountability-PoliticalAccountabilityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticalAccountability-PoliticalAccountabilityUITests.debug.xcconfig"; path = "Target Support Files/Pods-PoliticalAccountability-PoliticalAccountabilityUITests/Pods-PoliticalAccountability-PoliticalAccountabilityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C636D5F8F89011B34ACE6B0F /* Pods_PoliticalAccountability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoliticalAccountability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE240DC0A6D0B95CF67A5791 /* Pods_PoliticalAccountability_PoliticalAccountabilityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoliticalAccountability_PoliticalAccountabilityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47E77F51A766A8F061CA525 /* Pods_PoliticalAccountabilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoliticalAccountabilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB76AD53E9AD897850EC6567 /* Pods_PoliticalAccountability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E968A345A7C96D67C18D4E7 /* Pods_PoliticalAccountabilityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +181,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7617A920B18F7DBC6DCB452C /* Pods_PoliticalAccountability_PoliticalAccountabilityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30F8389CAE1B13F5FE4B8068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C636D5F8F89011B34ACE6B0F /* Pods_PoliticalAccountability.framework */,
+				CE240DC0A6D0B95CF67A5791 /* Pods_PoliticalAccountability_PoliticalAccountabilityUITests.framework */,
+				F47E77F51A766A8F061CA525 /* Pods_PoliticalAccountabilityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3E1441FF255FC97D00CDBECD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +205,8 @@
 				3E144221255FC98100CDBECD /* PoliticalAccountabilityTests */,
 				3E14422C255FC98100CDBECD /* PoliticalAccountabilityUITests */,
 				3E144209255FC97E00CDBECD /* Products */,
+				B54439FE2EA05C26CE9E650A /* Pods */,
+				30F8389CAE1B13F5FE4B8068 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +223,17 @@
 		3E14420A255FC97E00CDBECD /* PoliticalAccountability */ = {
 			isa = PBXGroup;
 			children = (
+				3E8ECD352684469C00725555 /* PoliticalAccountability.entitlements */,
 				3E14420B255FC97E00CDBECD /* AppDelegate.swift */,
-				3E14420D255FC97E00CDBECD /* SceneDelegate.swift */,
-				3E14420F255FC97E00CDBECD /* ContentView.swift */,
+				3E14423B255FCA7700CDBECD /* Model */,
+				3E14423C255FCA8600CDBECD /* View */,
+				3E14423D255FCAA300CDBECD /* Controller */,
 				3E144211255FC98000CDBECD /* Assets.xcassets */,
-				3E144216255FC98000CDBECD /* LaunchScreen.storyboard */,
+				3E144216255FC98000CDBECD /* Main.storyboard */,
 				3E144219255FC98000CDBECD /* Info.plist */,
+				3E14425A255FDBD900CDBECD /* GoogleService-Info.plist */,
 				3E144213255FC98000CDBECD /* Preview Content */,
+				3E8ECD2A26843EC800725555 /* Launchscreen.storyboard */,
 			);
 			path = PoliticalAccountability;
 			sourceTree = "<group>";
@@ -136,6 +264,152 @@
 			path = PoliticalAccountabilityUITests;
 			sourceTree = "<group>";
 		};
+		3E14423B255FCA7700CDBECD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E14426C2563811000CDBECD /* Data Objects */,
+				3E1442622560D81600CDBECD /* API */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E14423C255FCA8600CDBECD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EE3A5C725C122C40084B294 /* Collapsible Table View */,
+				3E14420F255FC97E00CDBECD /* ContentView.swift */,
+				3E14426A2562391A00CDBECD /* RepresentativeTableCell.swift */,
+				3E44E198258309AE004518F7 /* BillTableCell.swift */,
+				3EEF040C25908FFE00BF4CA6 /* BillTableCell.xib */,
+				3E893F2E258385D9009907FD /* VoteTableCell.swift */,
+				3EE3A5CC25C16AB30084B294 /* PCTCell.xib */,
+				3EE3A5CE25C16B880084B294 /* PCTCell.swift */,
+				3E0C6E872676A5C100D38C1E /* SmartActionTableCell.swift */,
+				3E01F6C4267D4AD1005F036F /* SmartVoteTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E14423D255FCAA300CDBECD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E144252255FD72C00CDBECD /* FirstNavigationController.swift */,
+				3E144240255FCBE900CDBECD /* StartingTabBarController.swift */,
+				3E8ECD132681234000725555 /* Representative VCs */,
+				3E8ECD122681233400725555 /* Bill VCs */,
+				3EEF04092590366700BF4CA6 /* Parent Classes */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E1442622560D81600CDBECD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3E1442632560D8CC00CDBECD /* Constants.swift */,
+				3E144256255FD96700CDBECD /* FirestoreHelper.swift */,
+				3E1442682561D67A00CDBECD /* CongressIOHelper.swift */,
+				3EAF0AC7256F701E00E8066F /* ProPublicaHelper.swift */,
+				3E49027B259855F00060F315 /* GovtrackerHelper.swift */,
+				3E37445E25A81C7A006005B2 /* VoteSmartHelper.swift */,
+				3E37445C259BF219006005B2 /* WikipediaHelper.swift */,
+				3E14426D2563812B00CDBECD /* Helper Classes */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3E14426C2563811000CDBECD /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3E14424E255FD3FE00CDBECD /* Representative.swift */,
+				3E14424F255FD3FE00CDBECD /* User.swift */,
+				3E144254255FD84300CDBECD /* Vote.swift */,
+				3EDE7F6F257C3D5B00067192 /* Bill.swift */,
+				3E37446225A8201A006005B2 /* Action.swift */,
+				3E37446025A81F2C006005B2 /* DetailedBill.swift */,
+				3E4902792595423D0060F315 /* RepresentativeSearch.swift */,
+				3E6F3F4E25B67FFD00C917CD /* PCT.swift */,
+				3E8521D72675A4A2000978B3 /* VotesmartBill.swift */,
+				3E8EE2FD25CC5E0000CEE2C8 /* VotesmartVote.swift */,
+				3E8521DF2675DDCD000978B3 /* VotesmartAction.swift */,
+				3E01F6BF267D4858005F036F /* VotesmartCandidateVote.swift */,
+			);
+			path = "Data Objects";
+			sourceTree = "<group>";
+		};
+		3E14426D2563812B00CDBECD /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF0AC52568B5A100E8066F /* RepresentativeImageLoader.swift */,
+				3E37446425B3B396006005B2 /* StringDistance.swift */,
+				3E8ECD1726812F5600725555 /* ActivityLoader.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		3E8ECD122681233400725555 /* Bill VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3E14426025609CB500CDBECD /* BrowseBillsViewController.swift */,
+				3E49027D259AB3640060F315 /* BillDetailViewController.swift */,
+				3E8521E42675E64D000978B3 /* BillHighlightsViewController.swift */,
+				3E01F6B7267D44C1005F036F /* BillActionVotesViewController.swift */,
+			);
+			path = "Bill VCs";
+			sourceTree = "<group>";
+		};
+		3E8ECD132681234000725555 /* Representative VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3E14423E255FCB4800CDBECD /* BrowseRepresentativesViewController.swift */,
+				3EDE7F78257DBE2800067192 /* Representative Detail VC */,
+			);
+			path = "Representative VCs";
+			sourceTree = "<group>";
+		};
+		3EDE7F78257DBE2800067192 /* Representative Detail VC */ = {
+			isa = PBXGroup;
+			children = (
+				3EDE7F79257DBF4800067192 /* MenuRepresentativeDetailViewController.swift */,
+				3EDE7F71257DBDB100067192 /* LifeRepresentativeDetailViewController.swift */,
+				3EDE7F73257DBDE700067192 /* SponsorRepresentativeDetailViewController.swift */,
+				3E6F3F4C25B67F6800C917CD /* PCTRepresentativeViewController.swift */,
+				3EDE7F75257DBE0E00067192 /* VoteReprsentativeDetailViewController.swift */,
+			);
+			path = "Representative Detail VC";
+			sourceTree = "<group>";
+		};
+		3EE3A5C725C122C40084B294 /* Collapsible Table View */ = {
+			isa = PBXGroup;
+			children = (
+				3EE3A5C825C123020084B294 /* CollapsibleTableViewController.swift */,
+				3EE3A5CA25C123350084B294 /* CollapsibleTableViewHeader.swift .swift */,
+			);
+			path = "Collapsible Table View";
+			sourceTree = "<group>";
+		};
+		3EEF04092590366700BF4CA6 /* Parent Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E14425E256081E000CDBECD /* AuthorizationController.swift */,
+				3EEF04072590366100BF4CA6 /* BillTableDelegateSource.swift */,
+				3E8ECD1F2681B94F00725555 /* RepresentativeDetailViewController.swift */,
+			);
+			path = "Parent Classes";
+			sourceTree = "<group>";
+		};
+		B54439FE2EA05C26CE9E650A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				453149F93E53DAB0225EC73F /* Pods-PoliticalAccountability.debug.xcconfig */,
+				01BE942FBF9B87EEA385641D /* Pods-PoliticalAccountability.release.xcconfig */,
+				9D4170D85E8864849B180AF5 /* Pods-PoliticalAccountability-PoliticalAccountabilityUITests.debug.xcconfig */,
+				3B1CAF217DCCB6A4D191C926 /* Pods-PoliticalAccountability-PoliticalAccountabilityUITests.release.xcconfig */,
+				5BB1A7F136651E86D71EABF6 /* Pods-PoliticalAccountabilityTests.debug.xcconfig */,
+				035678DB8037020BDFE46C0E /* Pods-PoliticalAccountabilityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +417,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E144232255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountability" */;
 			buildPhases = (
+				EC34F117613FD08ABF8B9C35 /* [CP] Check Pods Manifest.lock */,
 				3E144204255FC97E00CDBECD /* Sources */,
 				3E144205255FC97E00CDBECD /* Frameworks */,
 				3E144206255FC97E00CDBECD /* Resources */,
+				BC99D6AB093A19AADDA2A1C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +436,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E144235255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountabilityTests" */;
 			buildPhases = (
+				11801B12B4F7AD2DCE20CE03 /* [CP] Check Pods Manifest.lock */,
 				3E14421A255FC98000CDBECD /* Sources */,
 				3E14421B255FC98000CDBECD /* Frameworks */,
 				3E14421C255FC98000CDBECD /* Resources */,
@@ -178,9 +455,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E144238255FC98100CDBECD /* Build configuration list for PBXNativeTarget "PoliticalAccountabilityUITests" */;
 			buildPhases = (
+				22B8C4BAFD626C7627AA51D8 /* [CP] Check Pods Manifest.lock */,
 				3E144225255FC98100CDBECD /* Sources */,
 				3E144226255FC98100CDBECD /* Frameworks */,
 				3E144227255FC98100CDBECD /* Resources */,
+				E1CF70D49703D8D972EB1F8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,9 +519,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E144218255FC98000CDBECD /* LaunchScreen.storyboard in Resources */,
+				3E144218255FC98000CDBECD /* Main.storyboard in Resources */,
+				3E14425B255FDBD900CDBECD /* GoogleService-Info.plist in Resources */,
+				3EE3A5CD25C16AB30084B294 /* PCTCell.xib in Resources */,
 				3E144215255FC98000CDBECD /* Preview Assets.xcassets in Resources */,
 				3E144212255FC98000CDBECD /* Assets.xcassets in Resources */,
+				3EEF040D25908FFE00BF4CA6 /* BillTableCell.xib in Resources */,
+				3E8ECD2B26843EC800725555 /* Launchscreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +545,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11801B12B4F7AD2DCE20CE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoliticalAccountabilityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22B8C4BAFD626C7627AA51D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoliticalAccountability-PoliticalAccountabilityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC99D6AB093A19AADDA2A1C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalAccountability/Pods-PoliticalAccountability-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalAccountability/Pods-PoliticalAccountability-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoliticalAccountability/Pods-PoliticalAccountability-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CF70D49703D8D972EB1F8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalAccountability-PoliticalAccountabilityUITests/Pods-PoliticalAccountability-PoliticalAccountabilityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoliticalAccountability-PoliticalAccountabilityUITests/Pods-PoliticalAccountability-PoliticalAccountabilityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoliticalAccountability-PoliticalAccountabilityUITests/Pods-PoliticalAccountability-PoliticalAccountabilityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC34F117613FD08ABF8B9C35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoliticalAccountability-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E144204255FC97E00CDBECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE3A5C925C123020084B294 /* CollapsibleTableViewController.swift in Sources */,
+				3E8ECD1826812F5600725555 /* ActivityLoader.swift in Sources */,
+				3E44E199258309AE004518F7 /* BillTableCell.swift in Sources */,
+				3E37446325A8201A006005B2 /* Action.swift in Sources */,
 				3E14420C255FC97E00CDBECD /* AppDelegate.swift in Sources */,
-				3E14420E255FC97E00CDBECD /* SceneDelegate.swift in Sources */,
+				3E49027E259AB3640060F315 /* BillDetailViewController.swift in Sources */,
+				3E144253255FD72C00CDBECD /* FirstNavigationController.swift in Sources */,
+				3E14423F255FCB4800CDBECD /* BrowseRepresentativesViewController.swift in Sources */,
+				3EE3A5CF25C16B880084B294 /* PCTCell.swift in Sources */,
+				3E14426B2562391A00CDBECD /* RepresentativeTableCell.swift in Sources */,
+				3EAF0AC62568B5A100E8066F /* RepresentativeImageLoader.swift in Sources */,
+				3EDE7F76257DBE0E00067192 /* VoteReprsentativeDetailViewController.swift in Sources */,
+				3E8521E02675DDCD000978B3 /* VotesmartAction.swift in Sources */,
+				3E49027C259855F00060F315 /* GovtrackerHelper.swift in Sources */,
+				3EEF04082590366100BF4CA6 /* BillTableDelegateSource.swift in Sources */,
+				3E144250255FD3FE00CDBECD /* Representative.swift in Sources */,
+				3E37445D259BF219006005B2 /* WikipediaHelper.swift in Sources */,
+				3E0C6E882676A5C100D38C1E /* SmartActionTableCell.swift in Sources */,
+				3E144257255FD96700CDBECD /* FirestoreHelper.swift in Sources */,
+				3EAF0AC8256F701E00E8066F /* ProPublicaHelper.swift in Sources */,
+				3E01F6C0267D4858005F036F /* VotesmartCandidateVote.swift in Sources */,
+				3EDE7F74257DBDE700067192 /* SponsorRepresentativeDetailViewController.swift in Sources */,
+				3E37445F25A81C7A006005B2 /* VoteSmartHelper.swift in Sources */,
+				3E37446525B3B396006005B2 /* StringDistance.swift in Sources */,
+				3E893F2F258385D9009907FD /* VoteTableCell.swift in Sources */,
+				3E6F3F4F25B67FFD00C917CD /* PCT.swift in Sources */,
+				3E49027A2595423D0060F315 /* RepresentativeSearch.swift in Sources */,
+				3E01F6B8267D44C1005F036F /* BillActionVotesViewController.swift in Sources */,
+				3E1442692561D67A00CDBECD /* CongressIOHelper.swift in Sources */,
+				3EDE7F72257DBDB100067192 /* LifeRepresentativeDetailViewController.swift in Sources */,
+				3E14426125609CB500CDBECD /* BrowseBillsViewController.swift in Sources */,
+				3E01F6C5267D4AD1005F036F /* SmartVoteTableCell.swift in Sources */,
+				3E8521D82675A4A2000978B3 /* VotesmartBill.swift in Sources */,
+				3E1442642560D8CC00CDBECD /* Constants.swift in Sources */,
+				3EDE7F70257C3D5B00067192 /* Bill.swift in Sources */,
+				3E144241255FCBE900CDBECD /* StartingTabBarController.swift in Sources */,
+				3E37446125A81F2C006005B2 /* DetailedBill.swift in Sources */,
+				3EDE7F7A257DBF4800067192 /* MenuRepresentativeDetailViewController.swift in Sources */,
+				3E6F3F4D25B67F6800C917CD /* PCTRepresentativeViewController.swift in Sources */,
+				3E8521E52675E64D000978B3 /* BillHighlightsViewController.swift in Sources */,
+				3EE3A5CB25C123350084B294 /* CollapsibleTableViewHeader.swift .swift in Sources */,
+				3E8ECD202681B94F00725555 /* RepresentativeDetailViewController.swift in Sources */,
 				3E144210255FC97E00CDBECD /* ContentView.swift in Sources */,
+				3E14425F256081E000CDBECD /* AuthorizationController.swift in Sources */,
+				3E8EE2FE25CC5E0000CEE2C8 /* VotesmartVote.swift in Sources */,
+				3E144255255FD84300CDBECD /* Vote.swift in Sources */,
+				3E144251255FD3FE00CDBECD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +735,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3E144216255FC98000CDBECD /* LaunchScreen.storyboard */ = {
+		3E144216255FC98000CDBECD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3E144217255FC98000CDBECD /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,46 +862,88 @@
 		};
 		3E144233255FC98100CDBECD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453149F93E53DAB0225EC73F /* Pods-PoliticalAccountability.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PoliticalAccountability/PoliticalAccountability.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PoliticalAccountability/Preview Content\"";
 				DEVELOPMENT_TEAM = WXCEU9TX2N;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DropDown\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestoreSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftSoup\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Swift_PageMenu\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
 				INFOPLIST_FILE = PoliticalAccountability/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountability;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hose.PoliticalAccountability;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3E144234255FC98100CDBECD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BE942FBF9B87EEA385641D /* Pods-PoliticalAccountability.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PoliticalAccountability/PoliticalAccountability.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PoliticalAccountability/Preview Content\"";
 				DEVELOPMENT_TEAM = WXCEU9TX2N;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PoliticalAccountability/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Hose.PoliticalAccountability;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hose.PoliticalAccountability;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		3E144236255FC98100CDBECD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB1A7F136651E86D71EABF6 /* Pods-PoliticalAccountabilityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +966,7 @@
 		};
 		3E144237255FC98100CDBECD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035678DB8037020BDFE46C0E /* Pods-PoliticalAccountabilityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +989,7 @@
 		};
 		3E144239255FC98100CDBECD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4170D85E8864849B180AF5 /* Pods-PoliticalAccountability-PoliticalAccountabilityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +1010,7 @@
 		};
 		3E14423A255FC98100CDBECD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1CAF217DCCB6A4D191C926 /* Pods-PoliticalAccountability-PoliticalAccountabilityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
