@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+
+class BillTableCell: UITableViewCell {
+
+    @IBOutlet weak var billTitleLabel: UILabel!
+    @IBOutlet weak var shortSummaryLabel: UILabel!
+    @IBOutlet weak var billOriginLabel: UILabel!
+    @IBOutlet weak var billDateLabel: UILabel!
+    
+}

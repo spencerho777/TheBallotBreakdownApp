@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+class RepresentativeTableCell: UITableViewCell {
+    
+    @IBOutlet weak var repImageView: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var occupation: UILabel!
+    @IBOutlet weak var location: UILabel!
+    @IBOutlet weak var party: UILabel!
+    var onReuse: () -> Void = {}
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        onReuse()
+        repImageView.image = nil
+    }
+}
