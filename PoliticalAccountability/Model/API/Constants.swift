@@ -121,7 +121,7 @@ struct Constants {
     
     struct Propublica {
         static let APIURL = "https://api.propublica.org/congress/v1/"
-        static let APIKey = "WcmSS08gZhhZp6dDxQeByzA7YeivhwZ0jEANjp7l" // obfuscate later perhaps
+        static let APIKey = "*" // obfuscate later perhaps
         static let votePositionPath = "members/%@/votes.json" // member ID
         static let sponsorshipPath = "members/%@/bills/%@.json" // member ID, type of action (ex introduced, enacted, etc)
         static let cosponsorshipPath = "members/%@/bills/cosponsored.json" // member ID
@@ -139,7 +139,7 @@ struct Constants {
     
     // MARK: - Votesmart
     struct VoteSmart {
-        static let APIKey = "5b0789b8c984e09b0312864da73514c0"
+        static let APIKey = "*"
         static let apiKeyVariable = "?key=" + APIKey
         static let outputJSONVariable = "&o=JSON&"
         static let APIURL = "http://api.votesmart.org/%@" + apiKeyVariable + outputJSONVariable
@@ -160,7 +160,7 @@ struct Constants {
         static let APIURL = "https://api.data.world/v0/"
         static let APIPath = "sql/govtrack/us-congress-legislators"
         static let DwUsername = "spencewert"
-        static let APIToken = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OnNwZW5jZXdlcnQiLCJpc3MiOiJhZ2VudDpzcGVuY2V3ZXJ0Ojo3N2Y2MzU1Ni05MTY5LTRiZGMtODRmNy04MzJlNmRlODczZjYiLCJpYXQiOjE2MDU0MTcwODYsInJvbGUiOlsidXNlcl9hcGlfcmVhZCIsInVzZXJfYXBpX3dyaXRlIl0sImdlbmVyYWwtcHVycG9zZSI6dHJ1ZSwic2FtbCI6e319.aMvucq8K5c-VsJQsdcE30WGwBKTEOmrB8Wrcze5gVVVEBpaLbvOQTzXcjkhY807PLvD6qQ_V_jcEP6xQnCG5Jg"
+        static let APIToken = "*"
         static let repInfoRequest = "first_name, last_name, bioguide_id, govtrack_id, birthday_bio"
         
     }
